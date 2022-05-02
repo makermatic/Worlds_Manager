@@ -14,7 +14,7 @@ function swap() {
         nodecg.sendMessage('swapCasters', data)
         swapTog = true;
     } else {
-        update() //call the method THEN flip the switch off
+        update() //call the function THEN flip the switch off
         swapTog = false;
     }
 }
