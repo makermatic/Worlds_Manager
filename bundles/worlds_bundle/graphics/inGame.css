@@ -1,0 +1,53 @@
+body {
+    background: black 0% 0% no-repeat padding-box;
+    background-image: url("layouts/inGame.png");
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    opacity: 1;
+}
+
+.score {
+    /* Master transform properties for Scores*/
+    position: absolute;
+    text-align: center;
+    font: 44.4px Impact;
+    letter-spacing: 0px;
+    color: white;
+    opacity: 1;
+    top: 23px;
+    width: 62px;
+    height: 32px;
+}
+
+#team1 {
+    /* Score for Team 1 */
+    left: 102px;
+}
+
+#team2 {
+    /* Score for Team 2 */
+    left: 1764px;
+}
+
+.team {
+    /* Master transform properties for Team Names */
+    position: absolute;
+    text-transform: capitalize;
+    color: white;
+    font: 1.7447916666666667vw Impact;
+    top: 29px;
+    width: 250px;
+    display: inline-block;
+}
+
+#team1Name {
+    left: 200px;
+    text-align: left;
+}
+
+#team2Name {
+    left: 1480px;
+    text-align: right;
+}

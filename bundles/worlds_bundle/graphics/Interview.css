@@ -1,0 +1,49 @@
+body {
+    background: black 0% 0% no-repeat padding-box;
+    background-image: url("layouts/Interview.png");
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    opacity: 1;
+}
+
+#leftCaster {
+    position: absolute;
+    top: 849px;
+    left: 274px;
+    width: 430px;
+    height: 89px;
+    text-align: center;
+    font: normal normal normal 73px/89px Impact;
+    color: #FFFFFF;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .7px;
+}
+
+#rightCaster {
+    position: absolute;
+    top: 849px;
+    left: 1194px;
+    width: 472px;
+    height: 89px;
+    text-align: center;
+    font: normal normal normal 73px/89px Impact;
+    color: #FFFFFF;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .7px;
+}
+
+#interviewee {
+    position: absolute;
+    top: 844px;
+    left: 726px;
+    width: 469px;
+    height: 98px;
+    text-align: center;
+    font: normal normal normal 73px/89px Impact;
+    opacity: 1;
+    color: #FFFFFF;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}

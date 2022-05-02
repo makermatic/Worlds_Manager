@@ -1,0 +1,89 @@
+{
+    "name": "worlds_bundle",
+    "version": "1.0.0",
+    "files": [
+        "dashboard",
+        "graphics",
+        "extension.js",
+        "extension"
+    ],
+    "keywords": [
+        "",
+        "nodecg-bundle"
+    ],
+    "nodecg": {
+        "assetCategories": [{
+                "name": "team logos",
+                "title": "Team Logos",
+                "allowedTypes": ["jpg", "jpeg", "gif", "png"]
+            },
+            {
+                "name": "jsons",
+                "title": "JSONS",
+                "allowedTypes": ["json"]
+            },
+            {
+                "name": "stingers",
+                "title": "Stingers",
+                "allowedTypes": ["mov", "mp4", "mkv"]
+            }
+        ],
+        "compatibleRange": "^1.1.1",
+        "dashboardPanels": [{
+                "name": "matchup",
+                "title": "Matchup",
+                "width": 2,
+                "file": "matchup.html",
+                "headerColor": "#525F78"
+            },
+            {
+                "name": "talent",
+                "title": "Talent",
+                "width": 2,
+                "file": "talent.html",
+                "headerColor": "#525F78"
+            },
+            {
+                "name": "interview",
+                "title": "Interview",
+                "width": 2,
+                "file": "Interview.html",
+                "headerColor": "#525F78"
+            }
+        ],
+        "graphics": [{
+                "file": "Analyst_Desk.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "AC_Desk.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "Caster_Desk.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "lowerThird.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "DraftLOL.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "PicksAndBans.html",
+                "width": 1920,
+                "height": 1080
+            }
+        ]
+    },
+    "dependencies": {
+        "gsap": "^3.6.0"
+    }
+}

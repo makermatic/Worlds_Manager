@@ -1,0 +1,51 @@
+body {
+    background-color: #000712;
+    background-image: url("layouts/DraftLOL.png");
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    opacity: 1;
+}
+
+.score {
+    /* Master transform properties for Scores*/
+    position: absolute;
+    top: 49px;
+    width: 26px;
+    height: 58px;
+    text-align: center;
+    font: normal normal normal 47px/58px Impact;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .5px;
+}
+
+#team1 {
+    /* Score for Team 1 */
+    left: 77px;
+}
+
+#team2 {
+    /* Score for Team 2 */
+    left: 1817px;
+}
+
+.teamImage {
+    position: absolute;
+    border: 0;
+    width: 382px;
+    height: 383px;
+    top: -45px;
+    clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 54%, 0 54%);
+}
+
+#team1Image {
+    left: 420px;
+}
+
+#team2Image {
+    left: 1085px;
+}

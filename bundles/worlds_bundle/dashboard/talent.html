@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>Teams</title>
+</head>
+
+<body>
+    <span>Left Caster:</span>
+    <br>
+    <br>
+    <!-- Left Caster Select-->
+    <select name="leftcaster" id="leftCaster" onchange="if(this.options[this.selectedIndex].value=='Other'){toggleField(this,this.nextSibling); this.selectedIndex='0';}">
+        <option value="">--Pick a Caster--</option>
+        <option value="PhiNick">PhiNick</option>
+        <option value="Axeman87">Axeman87</option>
+        <option value="Cam Com">Cam Com</option>
+        <option value="DeeJay">DeeJay</option>
+        <option value="Other">[Other]</option>
+        </select><input id="leftCasterOther" style="display:none;" disabled="disabled" onblur="if(this.value==''){toggleField(this,this.previousSibling);}">
+
+
+    <br>
+    <br>
+
+    <span>Right Caster:</span>
+    <br>
+    <br>
+
+    <select name="rightcaster" id="rightCaster" onchange="if(this.options[this.selectedIndex].value=='Other'){toggleField(this,this.nextSibling); this.selectedIndex='0';}">
+        <option value="">--Pick a Caster--</option>
+        <option value="PhiNick">PhiNick</option>
+        <option value="Axeman87">Axeman87</option>
+        <option value="Cam Com">Cam Com</option>
+        <option value="DeeJay">DeeJay</option>
+        <option value="Other">[Other]</option>
+        </select><input id="rightCasterOther" style="display:none;" disabled="disabled" onblur="if(this.value==''){toggleField(this,this.previousSibling);}">
+    </select>
+    <br>
+    <br>
+
+    <span>Analyst 1:</span>
+    <br>
+    <br>
+
+    <select name="analyst1" id="analyst1" onchange="if(this.options[this.selectedIndex].value=='Other'){toggleField(this,this.nextSibling); this.selectedIndex='0';}">
+        <option value="">--Pick a Person--</option>
+        <option value="PhiNick">PhiNick</option>
+        <option value="Axeman87">Axeman87</option>
+        <option value="Cam Com">Cam Com</option>
+        <option value="DeeJay">DeeJay</option>
+        <option value="Other">[Other]</option>
+        </select><input id="analystOther1" style="display:none;" disabled="disabled" onblur="if(this.value==''){toggleField(this,this.previousSibling);}">
+    <br>
+    <br>
+
+    <span>Analyst 2:</span>
+    <br>
+    <br>
+    <select name="analyst2" id="analyst2" onchange="if(this.options[this.selectedIndex].value=='Other'){toggleField(this,this.nextSibling); this.selectedIndex='0';}">
+        <option value="">--Pick a Person--</option>
+        <option value="PhiNick">PhiNick</option>
+        <option value="Axeman87">Axeman 87</option>
+        <option value="Cam Com">Cam Com</option>
+        <option value="DeeJay">DeeJay</option>
+        <option value="Other">[Other]</option>
+        </select><input id="analystOther2" style="display:none;" disabled="disabled" onblur="if(this.value==''){toggleField(this,this.previousSibling);}">
+    <br>
+    <br>
+
+    <button onclick="update()">Update</button>
+    <button onclick="swap()">Swap</button>
+
+    <br><br>
+
+    <script src="talent.js"></script>
+
+    <script>
+        function toggleField(hideObj, showObj) {
+            hideObj.disabled = true;
+            hideObj.style.display = 'none';
+            showObj.disabled = false;
+            showObj.style.display = 'inline';
+            showObj.focus();
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+body {
+    background-color: #000712;
+    background-image: url("layouts/PicksandBans.png");
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    opacity: 1;
+}
+
+.score {
+    /* Master transform properties for Scores*/
+    position: absolute;
+    top: 315.5px;
+    width: 22px;
+    height: 54px;
+    text-align: center;
+    font: normal normal normal 45px/54px Impact;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#team1 {
+    /* Score for Team 1 */
+    left: 528px;
+}
+
+#team2 {
+    /* Score for Team 2 */
+    left: 1410px;
+}
+
+.team {
+    /* Master transform properties for Team Names */
+    position: absolute;
+    color: white;
+    top: 315px;
+    width: 408px;
+    height: 54px;
+    text-align: center;
+    font: normal normal normal 45px/54px Impact;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#team1Name {
+    left: 60px;
+}
+
+#team2Name {
+    left: 1482px;
+}
