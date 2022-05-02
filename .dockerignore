@@ -1,0 +1,9 @@
+*
+!lib
+!src
+!schemas
+!build
+!bower.json
+!index.js
+!package.json
+!types
