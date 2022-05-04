@@ -2,23 +2,23 @@ const LCasterRep = nodecg.Replicant('leftCaster');
 const RCasterRep = nodecg.Replicant('rightCaster');
 
 const LCaster = document.getElementById('leftCaster');
-const RCaster = document.getElementById('rightCaster');
+const LTwitter = document.getElementById('leftTwitter');
 
-const LOther = document.getElementById('leftOther')
-const ROther = document.getElementById('rightOther')
+const RCaster = document.getElementById('rightCaster');
+const RTwitter = document.getElementById('rightTwitter')
 
 nodecg.listenFor('updateCasters', (data) => {
     LCaster.innerHTML = data.leftCaster
-    RCaster.innerHTML = data.rightCaster
+    LTwitter.innerHTML = data.leftTwitter
 
-    LOther.innerHTML = data.leftOther
-    ROther.innerHTML = data.rightOther
+    RCaster.innerHTML = data.rightCaster
+    RTwitter.innerHTML = data.rightTwitter
 })
 
 nodecg.listenFor('swapCasters', (data) => {
     RCaster.innerHTML = data.leftCaster
     LCaster.innerHTML = data.rightCaster
 
-    LOther.innerHTML = data.rightOther
-    ROther.innerHTML = data.leftOther
+    LTwitter.innerHTML = data.rightTwitter
+    RTwitter.innerHTML = data.leftTwitter
 })
