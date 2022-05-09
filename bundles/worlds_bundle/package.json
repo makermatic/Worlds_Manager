@@ -37,10 +37,17 @@
                 "headerColor": "#525F78"
             },
             {
-                "name": "talent",
-                "title": "Talent",
+                "name": "casters",
+                "title": "Casters",
                 "width": 2,
-                "file": "talent.html",
+                "file": "casters.html",
+                "headerColor": "#525F78"
+            },
+            {
+                "name": "analysts",
+                "title": "Analysts",
+                "width": 2,
+                "file": "analysts.html",
                 "headerColor": "#525F78"
             },
             {
