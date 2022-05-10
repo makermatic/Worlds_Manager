@@ -1,0 +1,43 @@
+@font-face {
+    font-family: AkiraExpanded-SuperBold, ;
+    src: url(../fonts/Akira_Expanded.otf);
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url("layouts/Analyst_Desk/AD_Replay.png");
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    opacity: 1;
+}
+
+.analyst {
+    /* Layout Properties */
+   position: absolute;
+   left: 104px;
+   width: 406px;
+   height: 17px;
+
+   /* UI Properties */
+   font-family: 'Akira Expanded', sans-serif;
+   font-size: 16.67px;
+   text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#leftAnalyst {
+    top: 402px;
+}
+
+#midAnalyst {
+    top: 650px;
+}
+
+#rightAnalyst {
+    top: 898px;
+}
