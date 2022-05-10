@@ -1,0 +1,81 @@
+@font-face {
+    font-family: AkiraExpanded-SuperBold, ;
+    src: url(../fonts/Akira_Expanded.otf);
+}
+
+@font-face {
+    font-family: BebasNeue-Regular;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url("layouts/Analyst_Desk/Analyst_Desk_Base.png");
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    opacity: 1;
+}
+
+/* Analyst Master Properties */
+.analyst {
+    /* Layout Properties */
+    position: absolute;
+    top: 694px;
+    width: 620px;
+    height: 26px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+
+    /* UI Properties */
+    font-family: 'Akira Expanded', sans-serif;
+    font-size: 20.45px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#leftAnalyst {
+    left: 18px;
+}
+
+#midAnalyst {
+    left: 651px;
+}
+
+#rightAnalyst {
+    left: 1282px;
+}
+
+/* Twitter Master Properties */
+.twitter {
+    /* Layout Properties */
+    position: absolute;
+    top: 732px;
+    width: 620px;
+    height: 31px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+
+
+    /* UI Properties */
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25.45px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #0B36B9;
+    opacity: 1;
+}
+
+#leftTwitter {
+    left: 18px;
+}
+
+#midTwitter {
+    left:651px;
+}
+
+#rightTwitter {
+    left: 1282px;
+}

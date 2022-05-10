@@ -29,13 +29,7 @@
             }
         ],
         "compatibleRange": "^1.1.1",
-        "dashboardPanels": [{
-                "name": "matchup",
-                "title": "Matchup",
-                "width": 2,
-                "file": "matchup.html",
-                "headerColor": "#525F78"
-            },
+        "dashboardPanels": [
             {
                 "name": "casters",
                 "title": "Casters",
@@ -49,22 +43,10 @@
                 "width": 2,
                 "file": "analysts.html",
                 "headerColor": "#525F78"
-            },
-            {
-                "name": "interview",
-                "title": "Interview",
-                "width": 2,
-                "file": "Interview.html",
-                "headerColor": "#525F78"
             }
         ],
         "graphics": [{
-                "file": "Analyst_Desk.html",
-                "width": 1920,
-                "height": 1080
-            },
-            {
-                "file": "AC_Desk.html",
+                "file": "AD_Standard.html",
                 "width": 1920,
                 "height": 1080
             },

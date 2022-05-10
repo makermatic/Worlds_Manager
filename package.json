@@ -97,7 +97,7 @@
     "passport-twitch-helix": "^1.1.0",
     "raven": "^2.6.4",
     "raven-js": "^3.27.2",
-    "semver": "^6.0.0",
+    "semver": "^6.3.0",
     "serialize-error": "^4.1.0",
     "sha1": "^1.1.1",
     "sha1-file": "^1.0.4",
