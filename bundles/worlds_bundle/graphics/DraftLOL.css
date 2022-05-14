@@ -1,6 +1,6 @@
 body {
-    background-color: #000712;
     background-image: url("layouts/DraftLOL.png");
+    background-repeat: no-repeat;
     top: 0px;
     left: 0px;
     width: 1920px;
@@ -8,44 +8,29 @@ body {
     opacity: 1;
 }
 
-.score {
-    /* Master transform properties for Scores*/
+.team {
+    /* Layout Properties */
     position: absolute;
-    top: 49px;
-    width: 26px;
-    height: 58px;
-    text-align: center;
-    font: normal normal normal 47px/58px Impact;
-    letter-spacing: 0px;
-    color: #FFFFFF;
+    top: 72px;
+    width: 177px;
+    height: 65px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    /* UI Properties */
+    font-family: 'Akira Expanded', sans-serif;
+    font-size: 62.27px;
+    letter-spacing: 1.25px;
+    color: #0B36B9;
     opacity: 1;
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: .5px;
 }
 
-#team1 {
+#team1Name {
     /* Score for Team 1 */
-    left: 77px;
+    left: 162px;
+    text-align: left;
 }
 
-#team2 {
+#team2Name {
     /* Score for Team 2 */
-    left: 1817px;
-}
-
-.teamImage {
-    position: absolute;
-    border: 0;
-    width: 382px;
-    height: 383px;
-    top: -45px;
-    clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 54%, 0 54%);
-}
-
-#team1Image {
-    left: 420px;
-}
-
-#team2Image {
-    left: 1085px;
+    left: 1578px;
+    text-align: right;
 }
