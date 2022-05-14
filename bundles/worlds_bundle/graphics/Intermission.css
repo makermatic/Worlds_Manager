@@ -1,0 +1,26 @@
+body {
+    background-image: url("layouts/Intermission.png");
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    opacity: 1;
+}
+
+#timer {
+    /* Layout Properties */
+    position: absolute;
+    top: 39px;
+    left: 899px;
+    width: 109px;
+    height: 65px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    /* UI Properties */
+    text-align: center;
+    letter-spacing: 0px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60.55px;
+    color: #FFFFFF;
+    opacity: 1;
+}

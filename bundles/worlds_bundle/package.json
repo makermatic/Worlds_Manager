@@ -49,6 +49,13 @@
                 "width": 2,
                 "file": "matchup.html",
                 "headerColor": "#525F78"
+            },
+            {
+                "name": "timer",
+                "title": "Timer",
+                "width": 2,
+                "file": "timer.html",
+                "headerColor": "#525F78"
             }
         ],
         "graphics": [{
@@ -73,6 +80,26 @@
             },
             {
                 "file": "DraftLOL.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "streamEnding.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "endGame.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "border.html",
+                "width": 1920,
+                "height": 1080
+            },
+            {
+                "file": "Intermission.html",
                 "width": 1920,
                 "height": 1080
             }
