@@ -30,6 +30,13 @@
         ],
         "compatibleRange": "^1.1.1",
         "dashboardPanels": [{
+                "name": "leagueSelect",
+                "title": "League Select",
+                "width": 2,
+                "file": "league_select.html",
+                "headerColor": "#525F78"
+            },
+            {
                 "name": "casters",
                 "title": "Casters",
                 "width": 2,
@@ -41,13 +48,6 @@
                 "title": "Analysts",
                 "width": 2,
                 "file": "analysts.html",
-                "headerColor": "#525F78"
-            },
-            {
-                "name": "matchup",
-                "title": "Matchup",
-                "width": 2,
-                "file": "matchup.html",
                 "headerColor": "#525F78"
             },
             {
