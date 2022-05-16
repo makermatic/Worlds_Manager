@@ -26,3 +26,7 @@ function updateTimer(minutes) {
     }
     tick();
 }
+
+nodecg.listenFor('reload', () => {
+    location.reload();
+})

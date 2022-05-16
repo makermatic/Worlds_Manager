@@ -6,3 +6,7 @@ function sendTimerData(minutes) {
 
     console.log("Timer has been set to" + minutes + " minutes.");
 }
+
+function reload() {
+    nodecg.sendMessage('reload')
+}
