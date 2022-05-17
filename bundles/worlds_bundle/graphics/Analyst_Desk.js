@@ -33,3 +33,11 @@ nodecg.listenFor('Gold', () => {
     midTwitter.style.color = '#d99500'
     rightTwitter.style.color = '#d99500'
 })
+
+// Style Listeners
+nodecg.listenFor('Plat', () => {
+    document.body.style.backgroundImage = 'url("layouts/Platinum/Analyst_Desk/Analyst_Desk_Base.png")';
+    leftTwitter.style.color = '#256154'
+    midTwitter.style.color = '#256154'
+    rightTwitter.style.color = '#256154'
+})

@@ -27,3 +27,10 @@ nodecg.listenFor('Gold', () => {
     team1Name.style.color = '#d99500'
     team2Name.style.color = '#d99500'
 })
+
+// Style Listeners
+nodecg.listenFor('Plat', () => {
+    document.body.style.backgroundImage = 'url("layouts/Platinum/Draftlol.png")';
+    team1Name.style.color = '#256154'
+    team2Name.style.color = '#256154'
+})

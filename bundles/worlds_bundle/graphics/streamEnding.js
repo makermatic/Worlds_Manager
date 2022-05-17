@@ -6,3 +6,7 @@ nodecg.listenFor('IBS', () => {
 nodecg.listenFor('Gold', () => {
     document.body.style.backgroundImage = 'url("layouts/Gold/Static_Ones/StreamEnding.png")';
 })
+
+nodecg.listenFor('Plat', () => {
+    document.body.style.backgroundImage = 'url("layouts/Platinum/Static_Ones/StreamEnding.png")';
+})

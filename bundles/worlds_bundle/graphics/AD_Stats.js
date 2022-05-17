@@ -18,3 +18,7 @@ nodecg.listenFor('IBS', () => {
 nodecg.listenFor('Gold', () => {
     document.body.style.backgroundImage = 'url("layouts/Gold/Analyst_Desk/AD_Stats.png")';
 })
+
+nodecg.listenFor('Plat', () => {
+    document.body.style.backgroundImage = 'url("layouts/Platinum/Analyst_Desk/AD_Stats.png")';
+})
