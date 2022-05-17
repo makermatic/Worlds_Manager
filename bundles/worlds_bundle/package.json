@@ -37,6 +37,13 @@
                 "headerColor": "#525F78"
             },
             {
+                "name": "matchup",
+                "title": "Matchup",
+                "width": 2,
+                "file": "matchup.html",
+                "headerColor": "#525F78"
+            },
+            {
                 "name": "casters",
                 "title": "Casters",
                 "width": 2,
