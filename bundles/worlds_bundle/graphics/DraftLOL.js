@@ -20,3 +20,10 @@ nodecg.listenFor('IBS', () => {
     team1Name.style.color = '#460000'
     team2Name.style.color = '#460000'
 })
+
+// Style Listeners
+nodecg.listenFor('Gold', () => {
+    document.body.style.backgroundImage = 'url("layouts/Gold/Draftlol.png")';
+    team1Name.style.color = '#d99500'
+    team2Name.style.color = '#d99500'
+})

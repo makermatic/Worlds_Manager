@@ -14,3 +14,7 @@ nodecg.listenFor('updateAnalysts', (data) => {
 nodecg.listenFor('IBS', () => {
     document.body.style.backgroundImage = 'url("layouts/IBS/Analyst_Desk/AD_Replay.png")'; //Virtually identical to AD_Stats but with different path string
 })
+
+nodecg.listenFor('Gold', () => {
+    document.body.style.backgroundImage = 'url("layouts/Gold/Analyst_Desk/AD_Replay.png")'; //Virtually identical to AD_Stats but with different path string
+})

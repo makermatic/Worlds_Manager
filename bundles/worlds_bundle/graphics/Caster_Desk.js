@@ -29,3 +29,10 @@ nodecg.listenFor('IBS', () => {
     LTwitter.style.color = '#460000'
     RTwitter.style.color = '#460000'
 })
+
+// Style Listeners
+nodecg.listenFor('Gold', () => {
+    document.body.style.backgroundImage = 'url("layouts/Gold/Caster_Desk.png")';
+    LTwitter.style.color = '#d99500'
+    RTwitter.style.color = '#d99500'
+})
