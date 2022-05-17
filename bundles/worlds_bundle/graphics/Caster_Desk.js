@@ -22,3 +22,10 @@ nodecg.listenFor('swapCasters', (data) => {
     LTwitter.innerHTML = data.rightTwitter
     RTwitter.innerHTML = data.leftTwitter
 })
+
+// Style Listeners
+nodecg.listenFor('IBS', () => {
+    document.body.style.backgroundImage = 'url("layouts/IBS/Caster_Desk.png")';
+    LTwitter.style.color = '#460000'
+    RTwitter.style.color = '#460000'
+})

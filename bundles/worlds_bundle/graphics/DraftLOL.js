@@ -13,3 +13,10 @@ nodecg.listenFor('swapTeams', (data) => {
     team2Name.innerHTML = data.team1Name
     team1Name.innerHTML = data.team2Name
 })
+
+// Style Listeners
+nodecg.listenFor('IBS', () => {
+    document.body.style.backgroundImage = 'url("layouts/IBS/Draftlol.png")';
+    team1Name.style.color = '#460000'
+    team2Name.style.color = '#460000'
+})

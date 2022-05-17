@@ -17,3 +17,11 @@ nodecg.listenFor('updateAnalysts', (data) => {
     rightAnalyst.innerHTML = data.rightAnalyst
     rightTwitter.innerHTML = data.rightTwitter
 })
+
+// Style Listeners
+nodecg.listenFor('IBS', () => {
+    document.body.style.backgroundImage = 'url("layouts/IBS/Analyst_Desk/Analyst_Desk_Base.png")';
+    leftTwitter.style.color = '#460000'
+    midTwitter.style.color = '#460000'
+    rightTwitter.style.color = '#460000'
+})

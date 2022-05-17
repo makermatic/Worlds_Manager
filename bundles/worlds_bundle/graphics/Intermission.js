@@ -30,3 +30,8 @@ function updateTimer(minutes) {
 nodecg.listenFor('reload', () => {
     location.reload();
 })
+
+// Style Listeners
+nodecg.listenFor('IBS', () => {
+    document.body.style.backgroundImage = 'url("layouts/IBS/Intermission.png")';
+})
