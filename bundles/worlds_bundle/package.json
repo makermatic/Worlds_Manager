@@ -114,6 +114,11 @@
                 "file": "inGameBox.html",
                 "width": 1920,
                 "height": 1080
+            },
+            {
+                "file": "sword.html",
+                "width": 1920,
+                "height": 1080
             }
         ]
     },
