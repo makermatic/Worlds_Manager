@@ -36,12 +36,10 @@ nodecg.listenFor('IBS', () => {
     document.body.style.backgroundImage = 'url("layouts/IBS/Intermission.png")';
 })
 
-// Style Listeners
 nodecg.listenFor('Gold', () => {
     document.body.style.backgroundImage = 'url("layouts/Gold/Intermission.png")';
 })
 
-// Style Listeners
 nodecg.listenFor('Plat', () => {
     document.body.style.backgroundImage = 'url("layouts/Platinum/Intermission.png")';
 })

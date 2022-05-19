@@ -26,7 +26,6 @@ nodecg.listenFor('IBS', () => {
     rightTwitter.style.color = '#460000'
 })
 
-// Style Listeners
 nodecg.listenFor('Gold', () => {
     document.body.style.backgroundImage = 'url("layouts/Gold/Analyst_Desk/Analyst_Desk_Base.png")';
     leftTwitter.style.color = '#d99500'
@@ -34,7 +33,6 @@ nodecg.listenFor('Gold', () => {
     rightTwitter.style.color = '#d99500'
 })
 
-// Style Listeners
 nodecg.listenFor('Plat', () => {
     document.body.style.backgroundImage = 'url("layouts/Platinum/Analyst_Desk/Analyst_Desk_Base.png")';
     leftTwitter.style.color = '#256154'
