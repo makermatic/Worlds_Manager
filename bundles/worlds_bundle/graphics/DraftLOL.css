@@ -12,11 +12,12 @@ body {
     /* Layout Properties */
     position: absolute;
     top: 72px;
-    width: 177px;
+    width: 521px;
     height: 65px;
     transform: matrix(1, 0, 0, 1, 0, 0);
     /* UI Properties */
     font-family: 'Akira Expanded', sans-serif;
+    text-transform: uppercase;
     font-size: 62.27px;
     letter-spacing: 1.25px;
     color: #0B36B9;
@@ -25,12 +26,45 @@ body {
 
 #team1Name {
     /* Score for Team 1 */
-    left: 162px;
+    left: 160px;
     text-align: left;
 }
 
 #team2Name {
     /* Score for Team 2 */
-    left: 1570px;
+    left: 1253px;
     text-align: right;
+}
+
+.caster {
+    /* Layout Properties */
+    position: absolute;
+    top: 745px;
+    width: 500px;
+    height: 43px;
+    /* UI Properties */
+    font-family: 'Akira Expanded', sans-serif;
+    font-size: 41px;
+    text-align: center;
+    letter-spacing: 0.82px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+#leftCaster {
+    left: 420px;
+}
+
+#rightCaster {
+    left: 1000px;
+}
+
+#proComps {
+    /* Layout Properties */
+    position: absolute;
+    top: 947px;
+    left: 864px;
+    width: 192px;
+    height: 68px;
 }

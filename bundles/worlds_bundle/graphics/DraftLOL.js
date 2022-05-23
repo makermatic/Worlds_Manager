@@ -4,6 +4,10 @@ const team2El = document.getElementById('team2');
 const team1Name = document.getElementById('team1Name');
 const team2Name = document.getElementById('team2Name');
 
+const LCaster = document.getElementById('leftCaster');
+const RCaster = document.getElementById('rightCaster');
+
+
 nodecg.listenFor('updateTeams', (data) => {
     team1Name.innerHTML = data.team1Name
     team2Name.innerHTML = data.team2Name
@@ -13,6 +17,17 @@ nodecg.listenFor('swapTeams', (data) => {
     team2Name.innerHTML = data.team1Name
     team1Name.innerHTML = data.team2Name
 })
+
+nodecg.listenFor('updateCasters', (data) => {
+    LCaster.innerHTML = data.leftCaster
+    RCaster.innerHTML = data.rightCaster
+})
+
+nodecg.listenFor('swapCasters', (data) => {
+    RCaster.innerHTML = data.leftCaster
+    LCaster.innerHTML = data.rightCaster
+})
+
 
 // Style Listeners
 nodecg.listenFor('IBS', () => {
