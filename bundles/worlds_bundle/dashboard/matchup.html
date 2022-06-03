@@ -12,8 +12,9 @@
     <span>Team 1:</span>
     <br>
     <br>
-
+    <button onclick="subtractTeam1()">-</button>
     <input type="text" id="team1Name">
+    <button onclick="addTeam1()">+</button>
 
     <br>
     <br>
@@ -22,13 +23,16 @@
     <br>
     <br>
 
+    <button onclick="subtractTeam2()">-</button>
     <input type="text" id="team2Name">
+    <button onclick="addTeam2()">+</button>
 
     <br>
     <br>
 
     <button onclick="update()">Update Teams</button>
     <button onclick="swapTeams(); swapScores()">Swap</button>
+    <button onclick="resetScore()">Clear #s</button>
 
     <script src="teams.js"></script>
     <script src="score.js"></script>
