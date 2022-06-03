@@ -36,6 +36,30 @@ body {
     text-align: right;
 }
 
+.score {
+    position: absolute;
+    top: 72px;
+    height: 65px;
+    font-family: 'Akira Expanded', sans-serif;
+    font-size: 62.27px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    letter-spacing: 1.25px;
+    color: #0B36B9;
+    opacity: 1;
+}
+
+#team1 {
+    left: 420px;
+    width: 102px;
+    text-align: left;
+}
+
+#team2 {
+    left: 1426px;
+    width: 74px;
+    text-align: right;
+}
+
 .caster {
     /* Layout Properties */
     position: absolute;

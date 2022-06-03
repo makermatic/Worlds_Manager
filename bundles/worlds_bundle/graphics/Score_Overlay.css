@@ -11,7 +11,7 @@ body {
     /* Master transform properties for Scores*/
     position: absolute;
     text-align: center;
-    top: 0.22900009155273438px;
+    top: -3px;
     width: 38px;
     height: 38px;
     font-family: 'Bebas Neue', cursive;
@@ -28,6 +28,6 @@ body {
 
 #team2 {
     /* Score for Team 2 */
-    left: 1338px;
+    left: 1337.5px;
     color: #BA3539;
 }
