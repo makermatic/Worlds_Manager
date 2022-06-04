@@ -12,7 +12,6 @@ body {
     /* Layout Properties */
     position: absolute;
     top: 72px;
-    width: 521px;
     height: 65px;
     transform: matrix(1, 0, 0, 1, 0, 0);
     /* UI Properties */
@@ -27,12 +26,14 @@ body {
 #team1Name {
     /* Score for Team 1 */
     left: 160px;
+    width: 389px;
     text-align: left;
 }
 
 #team2Name {
     /* Score for Team 2 */
     left: 1253px;
+    width: 392px;
     text-align: right;
 }
 
