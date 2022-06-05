@@ -28,3 +28,8 @@ function swapScores() {
     team1Rep.value = team2Rep.value;
     team2Rep.value = team1Rep.value;
 }
+
+checkbox.addEventListener('change', function() {
+    data = { value: checkbox.checked }
+    nodecg.sendMessage('b03Toggle', data)
+})

@@ -64,3 +64,15 @@ nodecg.listenFor('Plat', () => {
     team1Name.style.color = '#256154'
     team2Name.style.color = '#256154'
 })
+
+// Bo3 Listener
+nodecg.listenFor('b03Toggle', (data) => {
+    console.log('Checkbox has been clicked')
+    if (data.value) {
+        team1.style.display = 'block';
+        team2.style.display = 'block';
+    } else {
+        team1.style.display = 'none'
+        team2.style.display = 'none'
+    }
+})
