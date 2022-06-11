@@ -18,3 +18,37 @@ function swapTeams() {
         swapTog = false;
     }
 }
+
+// Team Name Shifter Listener
+document.addEventListener('keydown', (event) => {
+    // Log the key that's been pressed
+    console.log(event.key + " has been pressed.")
+
+    // Move text based on designated key
+
+    // Team 1
+    if (event.key == '1') {
+        nodecg.sendMessage('resetTeam1Shift');
+    }
+
+    if (event.key == '2') {
+        nodecg.sendMessage('shiftTeam1Left');
+    }
+
+    if (event.key == '3') {
+        nodecg.sendMessage('shiftTeam1Right');
+    }
+
+    // Team 2
+    if (event.key == '8') {
+        nodecg.sendMessage('resetTeam2Shift');
+    }
+
+    if (event.key == '9') {
+        nodecg.sendMessage('shiftTeam2Left');
+    }
+
+    if (event.key == '0') {
+        nodecg.sendMessage('shiftTeam2Right');
+    }
+})

@@ -10,6 +10,7 @@ const RCaster = document.getElementById('rightCaster');
 const team1Rep = nodecg.Replicant('team1');
 const team2Rep = nodecg.Replicant('team2');
 
+let transformAmount = 0;
 
 nodecg.listenFor('updateTeams', (data) => {
     team1Name.innerHTML = data.team1Name
@@ -75,4 +76,36 @@ nodecg.listenFor('b03Toggle', (data) => {
         team1.style.display = 'none'
         team2.style.display = 'none'
     }
+})
+
+// Team 1 Name Shifters
+nodecg.listenFor('resetTeam1Shift', () => {
+    transformAmount = 0;
+    team1Name.style.transform = `translateX(${transformAmount}px)`;
+})
+
+nodecg.listenFor('shiftTeam1Left', () => {
+    transformAmount -= 2;
+    team1Name.style.transform = `translateX(${transformAmount}px)`;
+})
+
+nodecg.listenFor('shiftTeam1Right', () => {
+    transformAmount += 2;
+    team1Name.style.transform = `translateX(${transformAmount}px)`;
+})
+
+// Team 2 Name Shifters
+nodecg.listenFor('resetTeam2Shift', () => {
+    transformAmount = 0;
+    team2Name.style.transform = `translateX(${transformAmount}px)`;
+})
+
+nodecg.listenFor('shiftTeam2Left', () => {
+    transformAmount -= 2;
+    team2Name.style.transform = `translateX(${transformAmount}px)`;
+})
+
+nodecg.listenFor('shiftTeam2Right', () => {
+    transformAmount += 2;
+    team2Name.style.transform = `translateX(${transformAmount}px)`;
 })
